@@ -1,0 +1,13 @@
+http:
+  port: 7000
+  adminPort: 7001
+weatherAPIConfig:
+  byCityId: id
+  byGeographicCoordinates: lat&lon
+  byZIPcode: zip
+  citiesInCycle: lat&lon&cnt
+  severalCityIds: id
+  BASEURI: http://api.openweathermap.org/data/2.5/weather/
+  unitFormat: units=metric
+  openWeatherAPIKey: APPID=0c88dc5c29ee958cd5dd2f23db196465
+  
